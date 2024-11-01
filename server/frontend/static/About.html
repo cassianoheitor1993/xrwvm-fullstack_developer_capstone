@@ -1,68 +1,82 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <!-- Link the style sheet here -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+    <title>About Us - Best Cars Dealership</title>
 </head>
-<div>
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
-    <div class="container-fluid">
-      <h2 style="padding-right: 5%;">Dealerships</h2>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkturquoise; height: 1in;">
+        <div class="container-fluid">
+            <h2 style="padding-right: 5%;">Dealerships</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
   
-    <div class="card" style="width: 80%;margin: auto; margin-top:5%;">
-      <div class="banner" name="about-header">
-      <!-- Insert header information here -->
-      </div>
-      <div style="display: flex;flex-direction: row; margin:auto">
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person1</p>
-          <p>Person1 Title</p>
-          <p class="card-text">Some text that explains the person1 in about 2 short sentences</p>
-          <p>person1@example.com</p>
+    <div class="container bg-light mt-3 mb-3 border">
+        <div class="banner text-center bg-light py-5" style="border-radius: 10px;">
+            <h1 class="display-4 font-weight-bold">About Us</h1>
+            <h6 class="text-muted mb-4">Welcome to Best Cars Dealership, your premier destination for top-quality vehicles in North America.</h6>
+            <p class="lead">We specialize in the sale of both domestic and imported cars, ensuring that you find the perfect vehicle at an unbeatable price.</p>
+        </div>        
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img class="about-us-images" src="/static/Jane-Smith.jpg" alt="Jane Smith" style="width: 200px; height: 200px; object-fit: cover; border-radius: 10%;">
+                    <div class="card-body">
+                        <p class="title">Jane Smith</p>
+                        <p class="card-title text-center">Sales Manager</p>
+                        <p class="card-text details">With over 10 years of experience in the automotive industry, Jane is dedicated to helping customers find the perfect vehicle to meet their needs. Her extensive knowledge and friendly approach make the buying process seamless.</p>
+                    </div>
+                    <div class="card-footer text-center bg-light text-dark p-3">
+                        <p class="contact-info mb-0">jane.smith@example.com</p>
+                    </div>                    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img class="about-us-images" src="/static/John-Doe.jpg" alt="John Doe" style="width: 200px; height: 200px; object-fit: cover; border-radius: 10%;">
+                    <div class="card-body">
+                        <p class="title">John Doe</p>
+                        <p class="card-title text-center">Customer Service Representative</p>
+                        <p class="card-text details">John is passionate about customer satisfaction and works tirelessly to ensure every visitor feels welcomed. He is always ready to answer your questions and assist you with your purchase.</p>
+                    </div>
+                    <div class="card-footer text-center bg-light text-dark p-3">
+                        <p class="contact-info mb-0">john.doe@example.com</p>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img class="about-us-images" src="/static/Mike-Johnson.jpg" alt="Mike Johnson" style="width: 200px; height: 200px; object-fit: cover; border-radius: 10%;">
+                    <div class="card-body">
+                        <p class="title">Mike Johnson</p>
+                        <p class="card-title text-center">Finance Specialist</p>
+                        <p class="card-text details">Mike is here to help you navigate the financing options available for your new vehicle. With a background in financial services, he ensures you get the best rates and terms possible.</p>
+                    </div>
+                    <div class="card-footer text-center bg-light text-dark p-3">
+                        <p class="contact-info mb-0">mike.johnson@example.com</p>
+                    </div>  
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person2</p>
-          <p>Person2 Title</p>
-          <p class="card-text">Some text that explains the person2 in about 2 short sentences</p>
-          <p>person2@example.com</p>
-        </div>
-      </div>
-
-      <div class="card" style="width: 30%;">
-        <img class="card-img-top" src="/static/person.png" alt="Card image">
-        <div class="card-body">
-          <p class="title">Person3</p>
-          <p>Person3 Title</p>
-          <p class="card-text">Some text that explains the person3 in about 2 short sentences</p>
-          <p>person3@example.com</p>
-        </div>
-      </div>
     </div>
-    </div>
-    </div>
-    
-</div>
-
+</body>
 </html>

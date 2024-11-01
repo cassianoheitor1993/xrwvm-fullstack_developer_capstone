@@ -13,6 +13,14 @@ img{
   margin-bottom: 1%;
 }
 
+.about-us-images {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10%;
+    margin-top: 10px;
+}
+
 .row{
   display: flex;  
   flex: 1;
@@ -39,6 +47,10 @@ img{
   text-align: center;
   margin:20px;
   padding:5px;
+}
+
+.card-footer-backgroung{
+    background-color: rgb(97, 64, 128);
 }
 
 .homepage_links{
