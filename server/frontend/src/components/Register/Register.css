@@ -3,9 +3,10 @@
   flex-direction: column;
   margin: auto;
   margin-top: 2%;
-  background-color: darkturquoise;
+  background-color: rgba(0, 206, 209, 0.678);
   min-width: 350px;
   width: 30%;
+  border-radius: 20px;
 }
 
 .inputs{
