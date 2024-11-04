@@ -1,88 +1,51 @@
-table{
-    margin:5px;
-    padding:10px;
-    border: grey solid 1px;
-    width:100%
+.table {
+    margin-top: 20px;
+    width: 100%;
   }
   
-  td{
-    padding:10px;
-    align-self: center;
-    border:solid grey .5px;
-    text-align: center;
-    font-size: large;
+  .table-hover tbody tr:hover {
+    background-color: #f1f1f1;
   }
   
-  .review_panel{
-    display: flex;
-    flex-direction: column;
-    border: solid grey;
-    position: relative;
-    height:7cm;
-    width:6cm;
-    overflow-y: scroll;
-    padding:.3cm;
-    padding-top: 0%;
-    border-radius:10px; 
-    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.5);
-    margin-bottom: .5cm;
-    justify-content: space-between;
+  .review_icon {
+    width: 30px;
+    transition: transform 0.2s;
   }
-
-  .postreview{
-    margin:20px;
-    padding:10px;
-    font-size: larger;
+  
+  .review_icon:hover {
+    transform: scale(1.1);
+    border: solid lightgray;
+    border-radius: 10px;
   }
-
-  th{
-    padding:5px;
-    align-self: center;
+  
+  .select-form {
+    width: 150px;
+  }
+  
+  th, td {
     text-align: center;
-    font-size: large;
-    margin-bottom: 1cm;
     vertical-align: middle;
-    color: black;
   }
-
-  .reviews_panel {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 1cm;
-    overflow-wrap: normal;
-    margin-top: 1cm;
-    align-items: flex-start;
+  
+  th {
+    color: #ffffff;
+    font-weight: bold;
   }
-
-  .reviewer {
-    margin: 10px; /* Optional margin for spacing */
-    font-style: italic;
-    color: gray;
-    font-size: small;
-}
-
-.review {
-  margin-top: 1.5cm;
-}
-
-.emotion_icon {
-  align-self: center;
-  position:fixed;
-    width:40px;
-    height:40px;
-    background-color:#0C9;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-    box-shadow: 2px 2px 3px #999;  
-}
-
-.review_icon {
-  width:40px;
-}
-
-.review_icon:hover {
-  transform: scale(1.1);
-  border: solid lightgray;
-}
+  
+  thead {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .form-select {
+    font-size: 1rem;
+    padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+    width: 100%;
+    max-width: 150px;
+  }
+  
+  .review_icon {
+    width: 30px;
+    transition: transform 0.3s;
+  }
+  
